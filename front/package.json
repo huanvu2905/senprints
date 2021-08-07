@@ -9,8 +9,17 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@popperjs/core": "^2.9.3",
+    "bootstrap": "^5.1.0",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "popper.js": "^1.16.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "eslint-webpack-plugin": "^2.4.1"
+  }
 }
